@@ -45,14 +45,14 @@ const Register = () => {
                 <input onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
 
 
-                <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor="terms">Accept Terms And Conditions</label>
+                <label className={`ps-2 ${agree ? '' : 'text-warning fw-bold'}`} htmlFor="terms">Accept Terms And Conditions</label>
                 <input
                     disabled={!agree}
                     className='btn w-50 mx-auto btn btn-warning mt-2'
                     type="submit"
                     value="Register" />
             </form>
-            <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p>Already have an account? <Link to="/login" className='text-warning fw-bold pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
     );
