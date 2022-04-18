@@ -5,9 +5,9 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { toast, ToastContainer } from 'react-toastify';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { sendPasswordResetEmail } from 'firebase/auth';
 import 'react-toastify/dist/ReactToastify.css';
 import './Login.css';
+import Loading from '../../Shared/Loading/Loading';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -15,6 +15,7 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
+    let from = location.state?.from?.pathname || "/";
     let errorElement;
     const [
         signInWithEmailAndPassword,
@@ -24,6 +25,18 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
+    if (loading || sending) {
+        return <Loading></Loading>
+    }
+
+    if (user) {
+        navigate(from, { replace: true });
+    }
+
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
+    }
 
     const handleSubmit = event => {
         event.preventDefault();
@@ -41,10 +54,10 @@ const Login = () => {
         const email = emailRef.current.value;
         if (email) {
             await sendPasswordResetEmail(email);
-            toast('Sent email');
+            toast('Email Sent');
         }
         else {
-            toast('please enter your email address');
+            toast('Please enter your Email Address');
         }
     }
     return (

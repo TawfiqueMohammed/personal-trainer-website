@@ -4,7 +4,7 @@ const Note = () => {
     return (
         <div id='note' style={{ border: '1px solid grey' }} className='container mt-5 p-5'>
             <h1>A Note From <span className=''>Tawfique Umar</span></h1>
-            <h1>Therapist | Educator | Speaker</h1>
+            <h1>Therapist | <span className='text-warning'>Educator</span> | Speaker</h1>
             <h5 className='fw-light pt-2'>I am so happy you are here and I am thrilled to share this online learning platform with you!
                 <br />
                 <div>
