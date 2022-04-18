@@ -25,13 +25,16 @@ const Header = () => {
                         <Nav.Link as={Link} to="about">About</Nav.Link>
                     </Nav>
                     <Nav>
-                        {
-                            user ?
-                                <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign out</button>
-                                :
-                                <Nav.Link as={Link} to="login">
-                                    Login
-                                </Nav.Link>}
+                        <div>
+                            {
+                                user ?
+                                    <button className='btn btn-link text-white text-decoration-none ps-0' onClick={handleSignOut}><span className='text-warning'>{user.displayName}</span> <span className='rounded-3 p-1' style={{ border: '1px solid orange' }}>Sign out</span> </button>
+                                    :
+                                    <Nav.Link as={Link} to="login">
+                                        Login
+                                    </Nav.Link>
+                            }
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
