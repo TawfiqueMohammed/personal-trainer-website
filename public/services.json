@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Creating a Mindfulness Practice",
+        "price": "$499",
+        "description": "This course beautifully teaches you how to create a mindfulness practice in your life that will lead to more grounding, patience, and appreciation in the day-to-day.",
+        "img": "https://images.unsplash.com/photo-1499728603263-13726abce5fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVudGFsJTIwdGhlcmFweXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 2,
+        "name": "Hello Self-Care…Goodbye Stress",
+        "price": "$399",
+        "description": "This course is a crucial deep dive into the world of self (soul) care.  It teaches you about the impact of stress on your nervous system, and how burnout is a leading factor to the uncomfortable mental, emotional, and physical symptoms you are experiencing.",
+        "img": "https://img.freepik.com/free-photo/mental-health-care-sketch-diagram_53876-121351.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 3,
+        "name": "The Power of Trauma Knowledge",
+        "price": "$599",
+        "description": "This course is a deep dive into the power of trauma knowledge.  It explains how old trauma patterns are keeping you stuck and getting in the way of creating the life that you truly desire.",
+        "img": "https://img.freepik.com/free-photo/concept-problems-with-memory-amnesia-disease_185193-80920.jpg?size=626&ext=jpg"
+    },
+    {
+        "id": 4,
+        "name": "Your Mind Wellness",
+        "price": "$499",
+        "description": "This course will teach you about your powerful system of being well and give you a whole new framework for understanding wellness.",
+        "img": "https://img.freepik.com/free-vector/illustration-young-woman-meditating_23-2148513213.jpg?size=338&ext=jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ego State Therapy",
+        "price": "$299",
+        "description": "It will help you control your ego",
+        "img": "https://img.freepik.com/free-vector/mental-health-women-vector_53876-61377.jpg?size=338&ext=jpg"
+    },
+    {
+        "id": 6,
+        "name": "Spiritual Therapy?",
+        "price": "$699",
+        "description": "This course will help you connect mind with your body and give proper feel of spirituality",
+        "img": "https://img.freepik.com/free-photo/mindful-peaceful-afro-american-woman-meditates-indoor-keeps-hands-mudra-gesture-has-eyes-closed_273609-25449.jpg?size=626&ext=jpg"
+    }
+]
