@@ -4,8 +4,7 @@ import { Form } from 'react-bootstrap';
 
 const Checkout = () => {
     return (
-        <div>
-            <h3>HEllo</h3>
+        <div className='container'>
             <h2 className='text-center pt-3 text-warning fw-bold'>Course Payment Details</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -14,31 +13,29 @@ const Checkout = () => {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Full Name</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Full Name" />
+                    <Form.Control type="text" placeholder="Enter Full Name" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Card Details</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Card Details" />
+                    <Form.Control type="text" placeholder="Enter Card Details" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Certificate Name</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Certificate Name" />
+                    <Form.Control type="text" placeholder="Enter Certificate Name" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Billing Address</Form.Label>
-                    <Form.Control type="email" placeholder="Billing Address" />
+                    <Form.Control type="text" placeholder="Billing Address" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Total</Form.Label>
-                    <Form.Control type="email" placeholder="Enter Total" />
+                    <Form.Control type="text" placeholder="Enter Total" />
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="warning" type="submit">
-                    Submit
-                </Button>
+                <button className='btn btn-warning'>Submit</button>
             </Form>
         </div>
     );
