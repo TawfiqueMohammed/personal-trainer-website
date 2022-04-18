@@ -1,6 +1,16 @@
 .login-form {
     margin: 200px auto;
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid grey;
+    border-radius: 25px;
     padding: 20px;
+}
+
+.login-form input {
+    border-radius: 25px;
+}
+
+.login-form .btn {
+    border-radius: 25px;
+    padding: 10px;
 }

@@ -18,8 +18,8 @@ const Banner = () => {
                         />
                     </div>
                     <Carousel.Caption>
-                        <h3 className='text--white'>Holistic Personal Development</h3>
-                        <p>I am thrilled to share these holistic personal development courses with you.</p>
+                        <h3 className='text-warning'>Holistic Personal Development</h3>
+                        <p className='desktop-only'>I am thrilled to share these holistic personal development courses with you.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item >
@@ -31,8 +31,8 @@ const Banner = () => {
                         />
                     </div>
                     <Carousel.Caption>
-                        <h3 className='text--white'> Self-Help Courses for You</h3>
-                        <p>Each course was created from the heart and designed around the skills I have found to be most powerful in my own life and in my work with clients.</p>
+                        <h3 className='text-warning'> Self-Help Courses for You</h3>
+                        <p className='desktop-only' >Each course was created from the heart and designed around the skills I have found to be most powerful.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item >
@@ -44,8 +44,8 @@ const Banner = () => {
                         />
                     </div>
                     <Carousel.Caption>
-                        <h3 className='text--white'>Professional Development for Mental Health Professionals</h3>
-                        <p>Each course is an investment in YOU and YOUR WELLNESS! Can’t wait to see you on the inside</p>
+                        <h3 className='text-warning'>Courses for Mental Health Professionals</h3>
+                        <p className='desktop-only'>Each course is an investment in YOU and YOUR WELLNESS! Can not wait to see you on the inside</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
