@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Tawfique Umar's Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# This is the live website link: [Visit Link]().
+# This is the private repository link: [Visit Link](https://github.com/programming-hero-web-course-4/independent-service-provider-TawfiqueMohammed).
+
+I included this following features: 
+* Home page added with header, Home and footer section
+* In header section I included a note section as a required extra section, Courses, Blogs, About and login section.
+* In each Course section I included a button which will require authentication while clicked
+* In Blogs, I answered three question
+* I included About section which includes my name, my goal in life and way to achieve the goal.
+* I included login and register form
+
+List of technologies I have used:
+* Firebase
+* React-bootstrap
+* React-Firebase-hooks
+* React-Toastify
+* React-Router-Dom
 
 ## Available Scripts
 
